@@ -1,0 +1,10 @@
+metric,value,units
+ros_multiplier,1.0,x basal
+mfa_constrained,yes,
+growth_rate,0.1295,h^-1
+GUR,4.094,mmol/gDW/h
+OUR,6.452753496329427,mmol/gDW/h
+APR_acetate,3.4766,mmol/gDW/h
+LPR_lactate,0.0,mmol/gDW/h
+CO2_secretion,8.181950853070235,mmol/gDW/h
+biomass_yield,0.1756695479596149,gDCW/g-glucose

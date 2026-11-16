@@ -1,0 +1,39 @@
+{
+  "condition": "fmdA-fm",
+  "mu_option_A_h_inv": 0.1295,
+  "method": "Option A: mu from OD (mid->late) + q from mid->late window (arith-mean X); NH4 from image (T0->mid, arith-mean X)",
+  "exchanges": {
+    "EX_glc__D_e": {
+      "q": -4.1524,
+      "sigma": 0.0584,
+      "source": "mid->late window, arith-mean X",
+      "sign": "BiGG: negative = uptake"
+    },
+    "EX_ac_e": {
+      "q": 3.4266,
+      "sigma": 0.05,
+      "source": "mid->late window, arith-mean X",
+      "sign": "BiGG: positive = secretion"
+    },
+    "EX_tybx_e": {
+      "q": 0.09077,
+      "sigma": 0.01815,
+      "source": "mid->late window, arith-mean X (single rep, sigma=20% CV)",
+      "sign": "BiGG: positive = secretion"
+    },
+    "EX_nh4_e": {
+      "q": -15.0,
+      "sigma": 0.0,
+      "mode": "lb_only",
+      "note": "Biological cap: 2x canonical E. coli max NH4 uptake (~7 mmol/gDW/h). Model self-selects ~5-11. Cap ensures physical realism.",
+      "sign": "BiGG: negative = uptake"
+    },
+    "EX_fmd_e": {
+      "q": -20.0,
+      "sigma": 0.0,
+      "mode": "lb_only",
+      "note": "Biological cap: ~10x biomass+product N-demand at mu=0.13, ~1/3 of the physical ceiling (5 mmol total / gDW-hr integral). Blocks the unrealistic formate-combustion pathway.",
+      "sign": "BiGG: negative = uptake"
+    }
+  }
+}

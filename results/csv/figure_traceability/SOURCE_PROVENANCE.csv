@@ -1,0 +1,3 @@
+display_condition,source_state,modification,solution_status
+FM01 + NH4Cl,model_snapshots/FM01_NH4Cl,LDH_D reverse blocked; LDH_D2 forward blocked,exact fixed-growth qMINOS feasible
+FM01 + Formamide,model_snapshots/FM01_Formamide,unchanged MFA0831-updated default-exchange state,exact fixed-growth qMINOS feasible

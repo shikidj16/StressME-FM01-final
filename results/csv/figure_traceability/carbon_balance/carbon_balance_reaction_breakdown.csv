@@ -1,0 +1,21 @@
+model,condition,reaction_id,reaction_name,equation,flux_mmol_gDW_h,carbon_atoms,carbon_flux_mmol_C_gDW_h,direction,plotted_category,percent_of_total_carbon_import
+ME,FM01 + NH4Cl,EX_5mtr_e,5-Methylthio-D-ribose exchange,5mtr_e -> ,7.16809860268152e-05,6,0.0004300859161608,export,Other export,0.0005763685755245
+ME,FM01 + NH4Cl,EX_ac_e,Acetate exchange,ac_e + 0.1 overflow_C_lactate_share_max_5pct + 0.1 overflow_C_ethanol_share_max_5pct + 0.1 overflow_C_formate_share_max_5pct + 0.1 overflow_C_succinate_share_max_5pct + 0.1 overflow_C_minor_share_max_5pct <=> 0.30000000000000004 overflow_C_acetate_share_min_85pct,1.1051,2,2.2102,export,Acetate,2.961942667166797
+ME,FM01 + NH4Cl,EX_akg_e,2-Oxoglutarate exchange,akg_e -> ,0.4560012851623997,5,2.2800064258119983,export,Organic acid/carbohydrate export,3.055491952776684
+ME,FM01 + NH4Cl,EX_co2_e,CO2 exchange,co2_e -> ,32.389517696952026,1,32.389517696952026,export,CO2,43.40597884153301
+ME,FM01 + NH4Cl,EX_for_e,Formate exchange,for_e + 0.85 overflow_C_acetate_share_min_85pct + 0.05 overflow_C_lactate_share_max_5pct + 0.05 overflow_C_ethanol_share_max_5pct + 0.05 overflow_C_succinate_share_max_5pct + 0.05 overflow_C_minor_share_max_5pct <=> 0.95 overflow_C_formate_share_max_5pct,0.1163263157894737,1,0.1163263157894737,export,Formate,0.1558917193245683
+ME,FM01 + NH4Cl,EX_hxa_e,Hexanoate (n-C6:0) exchange,hxa_e -> ,0.1054666335026885,6,0.6327998010161311,export,Organic acid/carbohydrate export,0.8480303729998814
+ME,FM01 + NH4Cl,EX_meoh_e,methanol exchange,meoh_e -> ,1.4510816882495078e-05,1,1.4510816882495078e-05,export,Other export,1.9446297918607576e-05
+ME,FM01 + NH4Cl,EX_quin_e,Quinate exchange,quin_e -> ,0.1813644489175118,7,1.2695511424225825,export,Other export,1.701356301190751
+ME,FM01 + NH4Cl,EX_glc__D_e,D-Glucose exchange,glc__D_e <=> mfa_C_updated_R1_HEX1_equals_glucose_uptake,-12.436657560931872,6,74.61994536559124,import,Glucose,100.0
+ME,FM01 + NH4Cl,EX_tybx_e,Tyrosine-betaxanthin exchange (secretion only),tybx_e -> ,0.02706,18,0.48708,export,Betaxanthin,0.6527477306685384
+ME,FM01 + Formamide,EX_5mtr_e,5-Methylthio-D-ribose exchange,5mtr_e -> ,4.647012161965275e-06,6,2.788207297179165e-05,export,Other export,0.0001091052311642
+ME,FM01 + Formamide,EX_ac_e,Acetate exchange,ac_e + 0.1 overflow_C_lactate_share_max_5pct + 0.1 overflow_C_ethanol_share_max_5pct + 0.1 overflow_C_formate_share_max_5pct + 0.1 overflow_C_succinate_share_max_5pct + 0.1 overflow_C_minor_share_max_5pct <=> 0.30000000000000004 overflow_C_acetate_share_min_85pct,3.4766,2,6.9532,export,Acetate,27.208539842022297
+ME,FM01 + Formamide,EX_akg_e,2-Oxoglutarate exchange,akg_e -> ,0.2372351252307131,5,1.1861756261535654,export,Organic acid/carbohydrate export,4.641619223355439
+ME,FM01 + Formamide,EX_co2_e,CO2 exchange,co2_e -> ,8.181950853070235,1,8.181950853070235,export,CO2,32.01676002002385
+ME,FM01 + Formamide,EX_hxa_e,Hexanoate (n-C6:0) exchange,hxa_e -> ,0.4532143168110621,6,2.719285900866373,export,Organic acid/carbohydrate export,10.640827068913907
+ME,FM01 + Formamide,EX_meoh_e,methanol exchange,meoh_e -> ,4.309590394037063e-07,1,4.309590394037063e-07,export,Other export,1.68638413879874e-06
+ME,FM01 + Formamide,EX_quin_e,Quinate exchange,quin_e -> ,0.0969161122213699,7,0.6784127855495893,export,Other export,2.654694429178412
+ME,FM01 + Formamide,EX_glc__D_e,D-Glucose exchange,glc__D_e <=> mfa_C_updated_R1_HEX1_equals_glucose_uptake,-4.094,6,24.564,import,Glucose,96.12129273995222
+ME,FM01 + Formamide,EX_fmd_e,Formamide exchange,fmd_e -> ,-0.9912118576429912,1,0.9912118576429912,import,Formamide,3.8787072600477854
+ME,FM01 + Formamide,EX_tybx_e,Tyrosine-betaxanthin exchange (secretion only),tybx_e -> ,0.07262,18,1.30716,export,Betaxanthin,5.115042705502196

@@ -1,0 +1,98 @@
+{
+  "sim_number": 2,
+  "strain_label": "fmdA",
+  "medium_label": "MFA37-ME-fmdA-formamide-growth-NH4closed-overflow-share-limits-MFA0824updated-PTS--closed",
+  "temperature_C": 37.0,
+  "pH": 7.0,
+  "ros_multiplier": 1.0,
+  "n_source": "formamide",
+  "fmd_uptake": 20.0,
+  "add_formamide_direct": true,
+  "add_formamide_twostep": false,
+  "add_betaxanthin": true,
+  "mfa_constrained": true,
+  "mfa_sheet": "4. fmdA_M9 formamide",
+  "mfa_workbook": "/mfa/Metabolic flux analysis -0831updated.xlsx",
+  "mfa_scale": 24.082458337347077,
+  "mfa_tol": 0.1,
+  "hard_glucose_uptake": false,
+  "free_glucose": false,
+  "target_growth": null,
+  "exchange_json": "/mfa/exchange_A_fmdA-fm_biobounds.json",
+  "exchange_ci_mult": 1.0,
+  "pin_growth": 0.1295,
+  "skip_exchange": [],
+  "close_nh4_exchange": true,
+  "close_exchange": [],
+  "explicitly_closed_exchanges": {},
+  "close_nonacetate_carbon_overflow": false,
+  "overflow_percentage_limits": true,
+  "overflow_carbon_groups": {
+    "acetate": {
+      "EX_ac_e": 2.0
+    },
+    "lactate": {
+      "EX_lac__D_e": 3.0,
+      "EX_lac__L_e": 3.0
+    },
+    "ethanol": {
+      "EX_etoh_e": 2.0
+    },
+    "formate": {
+      "EX_for_e": 1.0
+    },
+    "succinate": {
+      "EX_succ_e": 4.0
+    },
+    "minor": {
+      "EX_pyr_e": 3.0,
+      "EX_acald_e": 2.0,
+      "EX_12ppd__R_e": 3.0,
+      "EX_12ppd__S_e": 3.0
+    }
+  },
+  "overflow_share_limits": {
+    "acetate_min": 0.85,
+    "lactate_max": 0.05,
+    "ethanol_max": 0.05,
+    "formate_max": 0.05,
+    "succinate_max": 0.05,
+    "minor_max": 0.05
+  },
+  "overflow_percentage_constraint_drains": [
+    "overflow_drain_acetate_share_min_85pct",
+    "overflow_drain_lactate_share_max_5pct",
+    "overflow_drain_ethanol_share_max_5pct",
+    "overflow_drain_formate_share_max_5pct",
+    "overflow_drain_succinate_share_max_5pct",
+    "overflow_drain_minor_share_max_5pct"
+  ],
+  "overflow_secretion_closure_candidates": [
+    "EX_12ppd__R_e",
+    "EX_12ppd__S_e",
+    "EX_acald_e",
+    "EX_etoh_e",
+    "EX_for_e",
+    "EX_lac__D_e",
+    "EX_lac__L_e",
+    "EX_pyr_e"
+  ],
+  "overflow_secretion_closures": [],
+  "overflow_feasibility_exception": {
+    "EX_succ_e": "left open because closing succinate makes the MFA37 formamide growth state infeasible"
+  },
+  "closed_carbon_overflow_exchanges": {},
+  "save_configured_model": true,
+  "mfa_biomass": false,
+  "biomass_tol": 0.0,
+  "bisect_precision": 0.0001,
+  "constrain_acetate": false,
+  "solution": {
+    "growth_rate": 0.1295,
+    "GUR": 4.094,
+    "OUR": 6.452753496329427,
+    "APR_acetate": 3.4766,
+    "CO2_secretion": 8.181950853070235,
+    "biomass_yield": 0.1756695479596149
+  }
+}

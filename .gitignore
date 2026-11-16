@@ -1,0 +1,18 @@
+# Generated reruns
+rerun_outputs/
+
+# Microsoft Office temporary files
+~$*
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

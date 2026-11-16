@@ -1,0 +1,32 @@
+{
+  "condition": "fmdA-am",
+  "mu_option_A_h_inv": 0.4678,
+  "method": "Option A: mu from OD (mid->late) + q from mid->late window (arith-mean X); NH4 from image (T0->mid, arith-mean X)",
+  "exchanges": {
+    "EX_glc__D_e": {
+      "q": -12.9639,
+      "sigma": 2.2728,
+      "source": "mid->late window, arith-mean X",
+      "sign": "BiGG: negative = uptake"
+    },
+    "EX_ac_e": {
+      "q": 2.1403,
+      "sigma": 1.0352,
+      "source": "mid->late window, arith-mean X",
+      "sign": "BiGG: positive = secretion"
+    },
+    "EX_tybx_e": {
+      "q": 0.02255,
+      "sigma": 0.00451,
+      "source": "mid->late window, arith-mean X (single rep, sigma=20% CV)",
+      "sign": "BiGG: positive = secretion"
+    },
+    "EX_nh4_e": {
+      "q": -15.0,
+      "sigma": 0.0,
+      "mode": "lb_only",
+      "note": "Biological cap: 2x canonical E. coli max NH4 uptake (~7 mmol/gDW/h). Model self-selects ~5-11. Cap ensures physical realism.",
+      "sign": "BiGG: negative = uptake"
+    }
+  }
+}

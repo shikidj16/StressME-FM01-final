@@ -1,0 +1,19 @@
+condition,metric,value,units
+FM01 + NH4Cl,ros_multiplier,1.0,x basal
+FM01 + NH4Cl,mfa_constrained,yes,
+FM01 + NH4Cl,growth_rate,0.4678,h^-1
+FM01 + NH4Cl,GUR,12.436657560931872,mmol/gDW/h
+FM01 + NH4Cl,OUR,27.13176319759092,mmol/gDW/h
+FM01 + NH4Cl,APR_acetate,1.1051,mmol/gDW/h
+FM01 + NH4Cl,LPR_lactate,0.0,mmol/gDW/h
+FM01 + NH4Cl,CO2_secretion,32.389517696952026,mmol/gDW/h
+FM01 + NH4Cl,biomass_yield,0.20889646692019928,gDCW/g-glucose
+FM01 + Formamide,ros_multiplier,1.0,x basal
+FM01 + Formamide,mfa_constrained,yes,
+FM01 + Formamide,growth_rate,0.1295,h^-1
+FM01 + Formamide,GUR,4.094,mmol/gDW/h
+FM01 + Formamide,OUR,6.452753496329427,mmol/gDW/h
+FM01 + Formamide,APR_acetate,3.4766,mmol/gDW/h
+FM01 + Formamide,LPR_lactate,0.0,mmol/gDW/h
+FM01 + Formamide,CO2_secretion,8.181950853070235,mmol/gDW/h
+FM01 + Formamide,biomass_yield,0.1756695479596149,gDCW/g-glucose

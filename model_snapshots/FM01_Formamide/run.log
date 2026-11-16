@@ -1,0 +1,513 @@
+======================================================================
+StressME run
+  Sim number:  2
+  Strain:      fmdA
+  Medium:      MFA37-ME-fmdA-formamide-growth-NH4closed-overflow-share-limits-MFA0824updated-PTS--closed
+  Temperature: 37.0 C
+  pH:          7.0
+  ROS:         1.0x basal
+  N source:    formamide
+  Fmd direct:  True
+  Fmd 2-step:  False
+  Betaxanthin: True
+  MFA:         CONSTRAINED (4. fmdA_M9 formamide)
+  Acetate ovf: False
+  Output dir:  /mount_point/
+======================================================================
+Loading FoldME pickle...
+Adding formamide -> formate (direct, FmdA):
+  added metabolite fmd_c
+  added metabolite fmd_p
+  added metabolite fmd_e
+  added reaction FMDtex
+  added reaction FMDtpp
+  added reaction EX_fmd_e
+  added reaction FMDA (formamidase): fmd + h2o -> for + nh4
+Adding betaxanthin biosynthesis (R75/R76/R77 + EX_tybx_e):
+  added metabolite 34dhphe_c
+  added metabolite btla_c
+  added metabolite tybx_c
+  added metabolite tybx_p
+  added metabolite tybx_e
+  added reaction BETAX_TYR_DOPA (R75)
+  added reaction BETAX_DOPA_BTLA (R76)
+  added reaction BETAX_BTLA_TYBX (R77)
+  added reaction TYBXtipp
+  added reaction TYBXtex
+  added reaction EX_tybx_e
+  N-source: formamide  (EX_nh4_e lb=0, EX_fmd_e lb=-20.0)
+Applying stress (T=37.0C, pH=7.0, ROS=1.0x)...
+10fthf_c + 1.80324164444648e-7*mu Fmt_mono_mod_mg2_mod_k + 0.00400427350427351*mu FusA_mono + 4.27350427350428e-6*mu InfA_mono + 4.45382843794893e-6*mu InfB_mono + 4.27350427350428e-6*mu InfC_mono + 2.07386100902221e-7*mu Map_mono_mod_2:fe2 + 1.63370183870619e-7*mu PrfB_mono + 4.27350427350428e-6*mu PrfC_mono + 0.000498399634202103*mu + 0.000195123456790123 + 0.00598079561042524*(mu + 0.3915)/mu RNA_b0026 + 2.55589556001079e-8*mu + 1.00063311174422e-8 RNA_degradosome + 2.62130898398881e-7*mu Rrf_mono + 0.00400427350427351*mu Tsf_mono + 92 ala__L_c + 46 arg__L_c + 21 asn__L_c + 71 asp__L_c + 937.0 + 4.21048010973937*(mu + 0.3915)/mu atp_c + 14 cys__L_c + 0.00400427350427351*mu generic_Tuf + 48.0 generic_tRNA_AAA_lys__L_c + 18.0 generic_tRNA_AAC_asn__L_c + 13.0 generic_tRNA_AAG_lys__L_c + 3.0 generic_tRNA_AAU_asn__L_c + 2.0 generic_tRNA_ACA_thr__L_c + 32.0 generic_tRNA_ACC_thr__L_c + 6.0 generic_tRNA_ACG_thr__L_c + 7.0 generic_tRNA_ACU_thr__L_c + 9.0 generic_tRNA_AGC_ser__L_c + 4.0 generic_tRNA_AGU_ser__L_c + 36.0 generic_tRNA_AUC_ile__L_c + 23.0 generic_tRNA_AUG_met__L_c + 10.0 generic_tRNA_AUU_ile__L_c + 4.0 generic_tRNA_CAA_gln__L_c + 21.0 generic_tRNA_CAC_his__L_c + 27.0 generic_tRNA_CAG_gln__L_c + 4.0 generic_tRNA_CAU_his__L_c + 6.0 generic_tRNA_CCA_pro__L_c + generic_tRNA_CCC_pro__L_c + 28.0 generic_tRNA_CCG_pro__L_c + 7.0 generic_tRNA_CCU_pro__L_c + generic_tRNA_CGA_arg__L_c + 18.0 generic_tRNA_CGC_arg__L_c + 27.0 generic_tRNA_CGU_arg__L_c + 2.0 generic_tRNA_CUA_leu__L_c + 9.0 generic_tRNA_CUC_leu__L_c + 56.0 generic_tRNA_CUG_leu__L_c + 3.0 generic_tRNA_CUU_leu__L_c + 39.0 generic_tRNA_GAA_glu__L_c + 39.0 generic_tRNA_GAC_asp__L_c + 19.0 generic_tRNA_GAG_glu__L_c + 32.0 generic_tRNA_GAU_asp__L_c + 21.0 generic_tRNA_GCA_ala__L_c + 19.0 generic_tRNA_GCC_ala__L_c + 42.0 generic_tRNA_GCG_ala__L_c + 10.0 generic_tRNA_GCU_ala__L_c + 2.0 generic_tRNA_GGA_gly_c + 43.0 generic_tRNA_GGC_gly_c + 3.0 generic_tRNA_GGG_gly_c + 27.0 generic_tRNA_GGU_gly_c + 12.0 generic_tRNA_GUA_val__L_c + 13.0 generic_tRNA_GUC_val__L_c + 27.0 generic_tRNA_GUG_val__L_c + 22.0 generic_tRNA_GUU_val__L_c + generic_tRNA_START_met__L_c + 17.0 generic_tRNA_UAC_tyr__L_c + 16.0 generic_tRNA_UAU_tyr__L_c + 4.0 generic_tRNA_UCA_ser__L_c + 12.0 generic_tRNA_UCC_ser__L_c + 8.0 generic_tRNA_UCG_ser__L_c + 10.0 generic_tRNA_UCU_ser__L_c + 11.0 generic_tRNA_UGC_cys__L_c + 23.0 generic_tRNA_UGG_trp__L_c + 3.0 generic_tRNA_UGU_cys__L_c + generic_tRNA_UUA_leu__L_c + 20.0 generic_tRNA_UUC_phe__L_c + 6.0 generic_tRNA_UUG_leu__L_c + 11.0 generic_tRNA_UUU_phe__L_c + 31 gln__L_c + 58 glu__L_c + 75 gly_c + 1876.0 gtp_c + 1878.0 + 4.21048010973937*(mu + 0.3915)/mu h2o_c + 25 his__L_c + 46 ile__L_c + 77 leu__L_c + 61 lys__L_c + 5.39227220717438*(mu + 0.3915)/mu mRNA_biomass + 23.0 met__L_c + 31 phe__L_c + 42 pro__L_c + 0.0134477510132293*mu + 0.00526479452167928 ribosome + 47 ser__L_c + 47 thr__L_c + 23 trp__L_c + 33 tyr__L_c + 74 val__L_c --> 4.21048010973937*(mu + 0.3915)/mu adp_c + 937.0 + 3.53465020576132*(mu + 0.3915)/mu amp_c + 4.9281755829904*(mu + 0.3915)/mu cmp_c + for_c + 1876.0 gdp_c + 4.46765432098766*(mu + 0.3915)/mu gmp_c + 2814.0 + 4.21048010973937*(mu + 0.3915)/mu h_c + 1876.0 + 4.21048010973937*(mu + 0.3915)/mu pi_c + 937.0 ppi_c + protein_b0026 + 104.14225236 protein_biomass + thf_c + 3.91742112482853*(mu + 0.3915)/mu ump_c
+('mod_mn2_c', 'already in model.')
+('mod_zn2_c', 'already in model.')
+('mod_cobalt2_c', 'already in model.')
+Done adding dilution fluxes.
+//****************************************************
+(2, 'metals')
+(22, 'additional mismetallated enzymes')
+//****************************************************
+
+Loading MFA data from sheet "4. fmdA_M9 formamide"...
+  Loaded 64 MFA reactions
+  Updated R1 stoichiometry detected: constraining summed HEX1 (glucose + ATP -> G6P); R10/PYK retained as an independent flux.
+  Expanded tiered profile enabled: 37 mapped MFA rows before R66-net
+  Mapping size: 37 (central carbon only; R75/R76/R77 skipped by --skip-betax-mfa)
+
+Applying MFA constraints (scale=/24, tol=+/-10%):
+  R1         -> HEX1                   target   4.152  drain bounds [3.737, 4.568]
+  R2 net     -> PGI                    target   3.176  drain bounds [2.858, 3.494]
+  R3         -> PFK                    target   3.470  drain bounds [3.123, 3.817]
+  R6 net     -> FBA                    target   3.470  drain bounds [3.123, 3.817]
+  R7 net     -> TPI                    target   3.470  drain bounds [3.123, 3.817]
+  R8 net     -> GAPD                   target   7.086  drain bounds [6.378, 7.795]
+  R9 net     -> ENO                    target   6.685  drain bounds [6.016, 7.353]
+  R10        -> PYK                    target   5.476  drain bounds [4.929, 6.024]
+  R14        -> PDH                    target   4.969  drain bounds [4.473, 5.466]
+  R15        -> CS                     target   0.338  drain bounds [0.304, 0.372]
+  R16 net    -> ACONTa                 target   0.338  drain bounds [0.304, 0.372]
+  R17 net    -> ICDHyr                 target   0.338  drain bounds [0.304, 0.372]
+  R19 net    -> SUCOAS                 target  -0.044  drain bounds [-0.048, -0.039] [sign-flipped: MFA fwd = BiGG rev]
+  R34 net    -> RPI                    target  -0.489  drain bounds [-0.538, -0.440] [sign-flipped: MFA fwd = BiGG rev]
+  R18        -> AKGDH                  target   0.079  drain bounds [0.071, 0.087]
+  R20 net    -> SUCDi                  target   0.079  drain bounds [0.071, 0.087]
+  R21 net    -> FUM                    target   0.168  drain bounds [0.151, 0.185]
+  R22 net    -> MDH                    target   0.168  drain bounds [0.151, 0.185]
+  R25        -> PPC                    target   0.725  drain bounds [0.653, 0.798]
+  R26        -> PPCK                   target near zero; absolute bounds [0, 0.01]
+  R26        -> PPCK                   target   0.000  drain bounds [0.000, 0.010]
+  R28        -> ICL                    target near zero; absolute bounds [0, 0.01]
+  R28        -> ICL                    target   0.000  drain bounds [0.000, 0.010]
+  R29        -> MALS                   target near zero; absolute bounds [0, 0.01]
+  R29        -> MALS                   target   0.000  drain bounds [0.000, 0.010]
+  R30        -> G6PDH2r                target   0.927  drain bounds [0.834, 1.020]
+  R31        -> GND                    target   0.800  drain bounds [0.720, 0.880]
+  R33 net    -> RPE                    target   0.311  drain bounds [0.280, 0.342]
+  R35 net    -> TKT1                   target   0.273  drain bounds [0.246, 0.300]
+  R36 net    -> TALA                   target   0.273  drain bounds [0.246, 0.300]
+  R37 net    -> TKT2                   target   0.038  drain bounds [0.034, 0.041]
+  R38        -> EDD                    target   0.127  drain bounds [0.114, 0.140]
+  R40        -> GLUDy                  target  -1.738  drain bounds [-1.912, -1.564] [sign-flipped: MFA fwd = BiGG rev] Allocating name1, name2
+ Allocating pi, rc, xn
+ Allocated pi, rc, xn
+ No Jacobian matrix since no nonlinear obj or constraints
+BFFF0000000000000000000000000000
+ BFF0000000000000
+BFFF0000000000000000000000000000
+C083D6329F1C35CA5000000000000000
+ C83D6329F1C35CA5
+C083D6329F1C35CA5000000000000000
+4083D6329F1C35CA5000000000000000
+ 483D6329F1C35CA5
+4083D6329F1C35CA5000000000000000
+ 
+      ==============================
+      quadMINOS  5.6      (Nov 2014)
+      ==============================
+ Calling miopt to set option: Maximize
+ Calling miopt to set option: Solution No
+ Calling miopti to set option New basis file to           11
+ Calling miopti to set option Save frequency to       500000
+ Calling miopti to set option Print level to            0
+ Calling miopti to set option Print frequency to       100000
+ Calling miopti to set option Scale option to            2
+ Calling miopti to set option Iteration limit to      2000000
+ Calling miopti to set option Expand frequency to       100000
+ 46293E5939A08CEA
+406293E5939A08CEA000000000000000
+ Calling mioptr to set option Penalty parameter to    100.00000000000000     
+ Calling mioptr to set option LU factor tol to    10.000000000000000     
+ Calling mioptr to set option LU update tol to    10.000000000000000     
+ Calling mioptr to set option LU singularity tol to    1.0000000000000001E-030
+ Calling mioptr to set option Feasibility tol to    9.9999999999999995E-021
+ Calling mioptr to set option Optimality tol to    9.9999999999999995E-021
+ Calling mioptr to set option Unbounded step size to    1.0000000000000000E+030
+BFFF0000000000000000000000000000
+ BFF0000000000000
+BFFF0000000000000000000000000000
+C083D6329F1C35CA5000000000000000
+ C83D6329F1C35CA5
+C083D6329F1C35CA5000000000000000
+4083D6329F1C35CA5000000000000000
+ 483D6329F1C35CA5
+4083D6329F1C35CA5000000000000000
+ Calling minoss. Cold start
+
+ Scale option  2,    Partial price  10
+ 
+
+      Itn     dj     ninf   sinf       objective
+        1 -1.1E+09    949 5.437E-01  0.00000000E+00
+      100 -2.2E+07    941 5.437E-01  0.00000000E+00
+      200 -3.3E+09    930 5.437E-01  0.00000000E+00
+      300 -2.1E+07    872 5.437E-01  0.00000000E+00
+      400 -7.6E+03    872 5.437E-01  0.00000000E+00
+      500 -1.0E+04    733 5.437E-01  0.00000000E+00
+      600 -2.5E+07    647 5.437E-01  0.00000000E+00
+      700 -8.4E+04    628 5.437E-01  0.00000000E+00
+      800 -3.1E+04    619 5.437E-01  0.00000000E+00
+      900 -1.1E+08    612 5.437E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     1000 -3.6E+04    599 5.437E-01  0.00000000E+00
+     1100 -2.7E+06    574 5.437E-01  0.00000000E+00
+     1200 -4.2E+04    570 5.437E-01  0.00000000E+00
+     1300 -4.0E+05    569 5.437E-01  0.00000000E+00
+     1400 -3.4E+06    566 5.437E-01  0.00000000E+00
+     1500 -3.4E+04    566 5.437E-01  0.00000000E+00
+     1600 -2.9E+05    558 5.437E-01  0.00000000E+00
+     1700 -2.5E+04    555 5.437E-01  0.00000000E+00
+     1800 -7.7E+06    555 5.437E-01  0.00000000E+00
+     1900 -4.3E+07    555 5.437E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     2000 -2.7E+05    554 5.437E-01  0.00000000E+00
+     2100 -8.9E+03    553 5.437E-01  0.00000000E+00
+     2200 -3.8E+03    534 5.437E-01  0.00000000E+00
+     2300 -4.3E+09    534 5.437E-01  0.00000000E+00
+     2400 -7.3E+05    534 5.437E-01  0.00000000E+00
+     2500 -2.6E+04    521 5.437E-01  0.00000000E+00
+     2600 -1.6E+07    520 5.437E-01  0.00000000E+00
+     2700 -3.6E+07    516 5.437E-01  0.00000000E+00
+     2800 -4.9E+08    516 5.437E-01  0.00000000E+00
+     2900 -7.5E+05    516 5.437E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     3000 -7.9E+09    508 5.437E-01  0.00000000E+00
+     3100 -2.4E+07    498 5.437E-01  0.00000000E+00
+     3200 -5.2E+11    493 5.437E-01  0.00000000E+00
+     3300 -2.5E+06    480 5.437E-01  0.00000000E+00
+     3400 -3.1E+03    480 5.437E-01  0.00000000E+00
+     3500 -9.7E+14    480 5.437E-01  0.00000000E+00
+     3600 -3.2E+09    480 5.437E-01  0.00000000E+00
+     3700 -1.2E+06    480 5.437E-01  0.00000000E+00
+     3800 -2.8E+04    471 5.437E-01  0.00000000E+00
+     3900 -1.0E+15    450 5.437E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     4000 -7.4E+10    447 5.436E-01  0.00000000E+00
+     4100 -3.3E+04    447 5.436E-01  0.00000000E+00
+     4200 -6.2E+03    435 5.436E-01  0.00000000E+00
+     4300 -6.4E+05    421 5.436E-01  0.00000000E+00
+     4400 -3.6E+04    421 5.436E-01  0.00000000E+00
+     4500 -9.7E+09    421 5.436E-01  0.00000000E+00
+     4600 -7.0E+09    421 5.436E-01  0.00000000E+00
+     4700 -1.6E+04    421 5.436E-01  0.00000000E+00
+     4800 -3.2E+04    413 5.436E-01  0.00000000E+00
+     4900 -4.2E+05    413 5.435E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     5000 -5.3E+05    411 5.432E-01  0.00000000E+00
+     5100 -1.1E+09    408 5.421E-01  0.00000000E+00
+     5200 -1.7E+07    406 5.396E-01  0.00000000E+00
+     5300 -6.7E+09    382 5.394E-01  0.00000000E+00
+     5400 -5.8E+04    380 5.393E-01  0.00000000E+00
+     5500 -1.4E+02    380 5.393E-01  0.00000000E+00
+     5600 -2.0E+09    373 5.393E-01  0.00000000E+00
+     5700 -2.9E+04    369 5.393E-01  0.00000000E+00
+     5800 -3.3E+07    368 5.393E-01  0.00000000E+00
+     5900 -1.1E+07    350 5.393E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     6000 -1.2E+02    345 5.391E-01  0.00000000E+00
+     6100 -6.2E+01    344 5.391E-01  0.00000000E+00
+     6200 -2.3E+01    344 5.391E-01  0.00000000E+00
+     6300 -1.7E+05    343 5.391E-01  0.00000000E+00
+     6400 -7.8E+06    340 5.390E-01  0.00000000E+00
+     6500 -9.0E+04    339 5.343E-01  0.00000000E+00
+     6600 -6.2E+09    330 5.206E-01  0.00000000E+00
+     6700 -5.3E+04    330 5.170E-01  0.00000000E+00
+     6800 -2.2E+06    325 4.894E-01  0.00000000E+00
+     6900 -1.7E+08    321 4.474E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     7000 -3.1E+01    319 3.260E-01  0.00000000E+00
+     7100 -7.1E+05    318 3.260E-01  0.00000000E+00
+     7200 -2.1E+01    309 3.259E-01  0.00000000E+00
+     7300 -5.9E+01    307 3.259E-01  0.00000000E+00
+     7400 -1.6E+02    307 3.259E-01  0.00000000E+00
+     7500 -1.1E+04    297 3.259E-01  0.00000000E+00
+     7600 -6.3E+07    297 3.259E-01  0.00000000E+00
+     7700 -6.9E+11    295 3.259E-01  0.00000000E+00
+     7800 -1.2E+06    293 3.146E-01  0.00000000E+00
+     7900 -6.6E+01    273 2.629E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     8000 -2.5E+03    271 2.626E-01  0.00000000E+00
+     8100 -3.5E+01    266 2.606E-01  0.00000000E+00
+     8200 -4.9E+02    255 2.160E-01  0.00000000E+00
+     8300 -1.2E+05    252 2.152E-01  0.00000000E+00
+     8400 -2.1E+05    249 2.143E-01  0.00000000E+00
+     8500 -6.0E+01    248 2.143E-01  0.00000000E+00
+     8600 -2.3E+02    248 2.143E-01  0.00000000E+00
+     8700 -1.8E+01    245 1.941E-01  0.00000000E+00
+     8800 -2.4E+02    243 1.911E-01  0.00000000E+00
+     8900 -4.2E+01    243 1.877E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+     9000 -7.6E+05    238 1.711E-01  0.00000000E+00
+     9100 -1.8E+02    237 1.710E-01  0.00000000E+00
+     9200 -1.1E+04    234 1.708E-01  0.00000000E+00
+     9300 -1.7E+07    234 1.708E-01  0.00000000E+00
+     9400 -7.3E+01    221 1.701E-01  0.00000000E+00
+     9500 -5.8E+03    219 1.647E-01  0.00000000E+00
+     9600 -3.5E+02    219 1.587E-01  0.00000000E+00
+     9700 -4.6E+00    217 1.559E-01  0.00000000E+00
+     9800 -1.2E+04    200 1.547E-01  0.00000000E+00
+     9900 -2.0E+02    200 1.530E-01  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    10000 -1.2E+06    200 1.529E-01  0.00000000E+00
+    10100 -3.5E+04    200 1.528E-01  0.00000000E+00
+    10200 -1.7E+02    199 1.519E-01  0.00000000E+00
+    10300 -7.0E+00    182 1.440E-01  0.00000000E+00
+    10400 -1.2E+01    171 9.352E-02  0.00000000E+00
+    10500 -7.8E+02    169 9.086E-02  0.00000000E+00
+    10600 -2.3E+00    169 9.053E-02  0.00000000E+00
+    10700 -2.8E+00    168 9.027E-02  0.00000000E+00
+    10800 -1.2E+01    168 8.694E-02  0.00000000E+00
+    10900 -5.7E+02    167 8.086E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    11000 -3.6E+01    166 7.814E-02  0.00000000E+00
+    11100 -9.8E+02    164 7.678E-02  0.00000000E+00
+    11200 -2.7E+04    162 7.644E-02  0.00000000E+00
+    11300 -6.6E+03    162 7.558E-02  0.00000000E+00
+    11400 -2.3E+02    162 7.506E-02  0.00000000E+00
+    11500 -4.3E+00    162 7.501E-02  0.00000000E+00
+    11600 -5.5E+00    162 7.500E-02  0.00000000E+00
+    11700 -9.5E+01    162 6.667E-02  0.00000000E+00
+    11800 -2.6E+01    161 6.113E-02  0.00000000E+00
+    11900 -5.6E+01    161 6.075E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    12000 -1.3E+02    161 5.978E-02  0.00000000E+00
+    12100 -1.0E+02    160 5.896E-02  0.00000000E+00
+    12200 -4.9E+00    160 5.837E-02  0.00000000E+00
+    12300 -4.9E+01    160 5.780E-02  0.00000000E+00
+    12400 -2.6E+02    158 5.778E-02  0.00000000E+00
+    12500 -4.8E+00    158 5.774E-02  0.00000000E+00
+    12600 -5.5E+00    158 5.759E-02  0.00000000E+00
+    12700 -1.6E+07    158 5.759E-02  0.00000000E+00
+    12800 -1.2E+01    158 5.748E-02  0.00000000E+00
+    12900 -9.2E-01    155 5.715E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    13000 -2.0E+02    154 5.651E-02  0.00000000E+00
+    13100 -6.1E+00    154 5.568E-02  0.00000000E+00
+    13200 -1.0E+05    154 5.484E-02  0.00000000E+00
+    13300 -3.9E+06    152 5.362E-02  0.00000000E+00
+    13400 -5.7E+00    150 5.354E-02  0.00000000E+00
+    13500 -1.9E+00    144 5.315E-02  0.00000000E+00
+    13600 -9.0E-01    143 5.302E-02  0.00000000E+00
+    13700 -3.3E+00    138 5.205E-02  0.00000000E+00
+    13800 -6.0E+00    136 5.151E-02  0.00000000E+00
+    13900 -1.3E+01    136 5.069E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    14000 -5.7E+00    136 5.051E-02  0.00000000E+00
+    14100 -9.4E+01    135 5.020E-02  0.00000000E+00
+    14200 -1.4E+06    134 4.918E-02  0.00000000E+00
+    14300 -5.0E+04    134 4.848E-02  0.00000000E+00
+    14400 -3.9E+01    132 4.789E-02  0.00000000E+00
+    14500 -8.5E+00    132 4.754E-02  0.00000000E+00
+    14600 -2.4E+00    132 4.743E-02  0.00000000E+00
+    14700 -4.4E+00    132 4.739E-02  0.00000000E+00
+    14800 -7.4E-01    132 4.712E-02  0.00000000E+00
+    14900 -1.2E+02    131 4.699E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    15000 -9.5E-01    124 3.163E-02  0.00000000E+00
+    15100 -2.9E+01    124 3.111E-02  0.00000000E+00
+    15200 -8.4E+01    123 3.084E-02  0.00000000E+00
+    15300 -3.3E+03    123 2.969E-02  0.00000000E+00
+    15400 -5.2E+02    122 2.957E-02  0.00000000E+00
+    15500 -1.3E+00    122 2.945E-02  0.00000000E+00
+    15600 -1.3E+00    122 2.932E-02  0.00000000E+00
+    15700 -5.2E+05    122 2.929E-02  0.00000000E+00
+    15800 -5.3E+00    121 2.730E-02  0.00000000E+00
+    15900 -1.6E+00    116 1.959E-02  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    16000 -2.4E+00    116 1.908E-02  0.00000000E+00
+    16100 -6.5E+00    115 1.576E-02  0.00000000E+00
+    16200 -2.7E+00    115 1.565E-02  0.00000000E+00
+    16300 -7.9E-01    107 9.465E-03  0.00000000E+00
+    16400 -6.7E+02    106 9.323E-03  0.00000000E+00
+    16500 -4.2E+00    106 9.045E-03  0.00000000E+00
+    16600 -3.6E+00    102 8.298E-03  0.00000000E+00
+    16700 -1.1E+05    102 7.934E-03  0.00000000E+00
+    16800 -1.1E+00    101 5.631E-03  0.00000000E+00
+    16900 -1.4E+00    101 5.149E-03  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    17000 -1.1E+01     95 4.617E-03  0.00000000E+00
+    17100 -2.3E-01     90 4.494E-03  0.00000000E+00
+    17200 -1.5E-01     89 4.453E-03  0.00000000E+00
+    17300 -2.8E-01     89 4.313E-03  0.00000000E+00
+    17400 -7.1E+00     89 3.840E-03  0.00000000E+00
+    17500 -3.2E+00     88 3.784E-03  0.00000000E+00
+    17600 -4.9E+00     86 3.717E-03  0.00000000E+00
+    17700 -3.0E-01     86 3.467E-03  0.00000000E+00
+    17800 -1.2E+01     85 3.303E-03  0.00000000E+00
+    17900 -3.4E+00     80 3.160E-03  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    18000 -3.7E+00     78 3.044E-03  0.00000000E+00
+    18100 -3.6E+00     78 2.842E-03  0.00000000E+00
+    18200 -1.0E+01     78 2.598E-03  0.00000000E+00
+    18300 -8.8E+07     78 2.473E-03  0.00000000E+00
+    18400 -8.9E+04     78 7.704E-04  0.00000000E+00
+    18500 -7.2E-01     78 6.847E-04  0.00000000E+00
+    18600 -1.4E-01     77 5.315E-04  0.00000000E+00
+    18700 -1.6E+00     77 3.821E-04  0.00000000E+00
+    18800 -1.6E+04     77 2.914E-04  0.00000000E+00
+    18900 -1.8E-01     67 2.588E-04  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    19000 -1.1E-01     59 2.491E-04  0.00000000E+00
+    19100 -8.2E-02     57 1.759E-04  0.00000000E+00
+    19200 -4.5E-02     57 1.362E-04  0.00000000E+00
+    19300 -9.2E-02     56 8.287E-05  0.00000000E+00
+    19400 -2.5E+02     56 6.812E-05  0.00000000E+00
+    19500 -1.1E-01     55 6.109E-05  0.00000000E+00
+    19600 -1.5E+03     55 4.705E-05  0.00000000E+00
+    19700 -1.1E+06     53 1.618E-05  0.00000000E+00
+    19800 -2.7E-02     42 5.120E-06  0.00000000E+00
+    19900 -1.3E+05     23 2.290E-06  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    20000 -6.8E-03      8 1.290E-06  0.00000000E+00
+    20100 -1.1E+02      8 1.229E-06  0.00000000E+00
+    20200 -6.2E-04      8 1.107E-06  0.00000000E+00
+    20300 -3.0E-04      8 1.096E-06  0.00000000E+00
+    20400 -3.0E-03      8 9.629E-07  0.00000000E+00
+    20500 -1.8E-02      8 6.460E-07  0.00000000E+00
+    20600 -7.8E+02      8 5.075E-07  0.00000000E+00
+    20700 -2.4E-04      8 4.322E-07  0.00000000E+00
+    20800 -1.9E-04      8 4.166E-07  0.00000000E+00
+    20900 -2.1E-04      8 4.051E-07  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    21000 -2.3E-04      6 3.952E-07  0.00000000E+00
+    21100 -1.9E-04      6 3.102E-07  0.00000000E+00
+    21200 -1.9E-04      6 2.873E-07  0.00000000E+00
+    21300 -1.0E-02      5 1.642E-08  0.00000000E+00
+    21400 -6.8E-08      2 5.596E-11  0.00000000E+00
+    21500 -2.6E-08      2 5.255E-11  0.00000000E+00
+    21600 -3.3E-08      2 4.323E-11  0.00000000E+00
+    21700 -2.9E-08      2 4.323E-11  0.00000000E+00
+    21800 -7.6E-09      2 4.322E-11  0.00000000E+00
+    21900 -3.5E-09      2 4.322E-11  0.00000000E+00
+
+      Itn     dj     ninf   sinf       objective
+    22000 -3.5E-09      2 4.317E-11  0.00000000E+00
+    22100 -2.3E-09      2 4.317E-11  0.00000000E+00
+    22200 -4.6E-09      2 4.317E-11  0.00000000E+00
+    22300 -2.5E-09      2 4.317E-11  0.00000000E+00
+    22400 -1.0E-09      2 4.309E-11  0.00000000E+00
+    22500 -5.0E-02      2 3.686E-11  0.00000000E+00
+    22600 -3.0E-07      2 1.935E-11  0.00000000E+00
+    22700 -3.7E-08      2 2.605E-12  0.00000000E+00
+ Itn    22765 -- linear E rows feasible.   Obj =   0.000000000E+00
+    22800 -4.4E-01     22 4.943E-04  0.00000000E+00
+    22900 -7.4E+01     10 7.483E-06  0.00000000E+00
+ Itn    22974 -- feasible solution.  Objective =   0.000000000E+00
+ Itn    22978 --     676  nonbasics set on bound, basics recomputed
+ Itn    22978 -- feasible solution.  Objective =   0.000000000E+00
+ 
+ EXIT -- optimal solution found
+
+ NEW BASIS file saved on file  11    itn =  22978
+
+ Problem name                 me_lp   
+ No. of iterations               22978   Objective value      0.0000000000E+00
+ No. of degenerate steps          9528   Percentage                      41.47
+ Max x       (scaled)    34792 7.9E-01   Max pi      (scaled)    23694 1.0E+00
+ Max x                    7495 1.6E+01   Max pi                  23694 1.0E+00
+ Max Prim inf(scaled)    13607 1.6E-21   Max Dual inf(scaled)        0 0.0E+00
+ Max Primal infeas       13607 8.3E-20   Max Dual infeas             0 0.0E+00
+
+ Solution not printed
+
+ Time for MPS input                           0.00 seconds
+ Time for solving problem                   601.70 seconds
+ Time for solution output                     0.03 seconds
+ Time for constraint functions                0.00 seconds
+ Time for objective function                  0.00 seconds
+  
+ Quad MINOS finished.
+ inform =           0
+ ninf   =           0
+ sinf   =   0.00000000000000000000000000000000000      
+ obj    =   0.00000000000000000000000000000000000      
+                               0
+                0
+BFFF0000000000000000000000000000
+ BFF0000000000000
+3FFF0000000000000000000000000000
+ 3FF0000000000000
+/usr/lib/python3.6/site-packages/cobra-0.5.11-py3.6-linux-x86_64.egg/cobra/solvers/__init__.py:63: UserWarning: No LP solvers found
+  warn("No LP solvers found")
+/usr/lib/python3.6/site-packages/cobra-0.5.11-py3.6-linux-x86_64.egg/cobra/io/sbml3.py:24: UserWarning: Install lxml for faster SBML I/O
+  warn("Install lxml for faster SBML I/O")
+/usr/lib/python3.6/site-packages/cobra-0.5.11-py3.6-linux-x86_64.egg/cobra/io/__init__.py:12: UserWarning: cobra.io.sbml requires libsbml
+  warn("cobra.io.sbml requires libsbml")
+/source/cobrame/cobrame/core/processdata.py:257 [1;31mUserWarning[0m: met (generic_tRNA_GAG_glu__L_c) does not have formula
+/source/cobrame/cobrame/core/processdata.py:285 [1;31mUserWarning[0m: Negative element found in ({'H': -1}), element contributions are usually positive
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_1), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/processdata.py:285 [1;31mUserWarning[0m: Negative element found in (defaultdict(<class 'int'>, {'H': 0, 'O': -3, 'P': -1})), element contributions are usually positive
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_4), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_2), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_3), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_5), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/processdata.py:229 [1;31mUserWarning[0m: No element contribution input for subreaction (folding_KJE_6), calculating based on stoichiometry instead
+/source/cobrame/cobrame/core/reaction.py:858 [1;31mUserWarning[0m: RNA Polymerase () not found
+/source/cobrame/cobrame/core/processdata.py:873 [1;31mUserWarning[0m: RNA_b3509 starts with 'AUG' which is not a start codon
+/source/cobrame/cobrame/core/processdata.py:910 [1;31mUserWarning[0m: No termination enzyme for RNA_b3509
+
+  R44        -> ASPTA                  target  -0.473  drain bounds [-0.591, -0.355] [sign-flipped: MFA fwd = BiGG rev]
+  R46        -> ALATA_L                target  -0.117  drain bounds [-0.129, -0.106] [sign-flipped: MFA fwd = BiGG rev]
+  R48 net    -> GHMT2r                 target   0.134  drain bounds [0.101, 0.168]
+  R49 net    -> GLYCL                  target   0.029  drain bounds [0.026, 0.032]
+  R50        -> MTHFR2                 target   0.035  drain bounds [0.032, 0.039]
+  R39        -> ACKr                   target  -3.836  drain bounds [-4.219, -3.452] [sign-flipped: MFA fwd = BiGG rev]
+  R66 net    -> THD2pp - NADTRHD       target   2.458  drain bounds [2.212, 2.704]
+
+Applying --exchange-json bounds (mult=1 sigma):
+  file: /mfa/exchange_A_fmdA-fm_biobounds.json
+  EX_glc__D_e     q=-4.1524  sigma=0.0584  ->  bounds [-4.2108, -4.0940]
+  EX_ac_e         q=+3.4266  sigma=0.0500  ->  bounds [+3.3766, +3.4766]
+  EX_tybx_e       q=+0.0908  sigma=0.0181  ->  bounds [+0.0726, +0.1089]
+  EX_nh4_e        q=-15.0000  sigma=0.0000  ->  lb-only [-15.0000, model-default]
+  EX_fmd_e        q=-20.0000  sigma=0.0000  ->  lb-only [-20.0000, model-default]
+  Revised R1 coupling: HEX1 + EX_glc__D_e = 0
+
+--close-nh4-exchange: EX_nh4_e fixed to [0, 0]
+
+--overflow-percentage-limits: acetate >=85%; each non-acetate group <=5%
+  constrained drains: ['overflow_drain_acetate_share_min_85pct', 'overflow_drain_lactate_share_max_5pct', 'overflow_drain_ethanol_share_max_5pct', 'overflow_drain_formate_share_max_5pct', 'overflow_drain_succinate_share_max_5pct', 'overflow_drain_minor_share_max_5pct']
+
+--pin-growth 0.1295 h^-1: biomass_dilution bounds pinned to [0.1295, 0.1295]
+
+Saved fully configured model to /mount_point/configured_model.pickle
+
+Rebuilding solver after model modifications...
+
+Solving direct fixed-growth feasibility LP at mu = 0.129500 (quad-precision qMINOS)...
+Finished compiling expressions in 62.610347 seconds
+Finished substituting S,lb,ub in 4.301855 seconds
+Finished makeME_LP in 0.708233 seconds
+Getting MINOS parameters from ME_NLP...
+  fixed-growth feasibility status: optimal
+  symbolic mu: 0.129500
+  biomass_dilution: 0.129500
+
+=== SOLUTION ===
+  mu:   0.1295 h^-1
+  GUR:  4.0940
+  OUR:  6.4528
+  APR:  3.4766
+
+Writing outputs to /mount_point/
+
+Done.

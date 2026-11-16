@@ -1,0 +1,17 @@
+model,condition,condition_label,direction,category,carbon_flux_mmol_C_gDW_h,percent_of_total_carbon_import,total_carbon_import_mmol_C_gDW_h,solver_assessment
+ME,FM01 + NH4Cl,FM01 + NH4Cl,import,Glucose,74.61994536559124,100.0,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Other export,1.2699957391556258,1.7019521160641944,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Acetate,2.2102,2.961942667166797,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Organic acid/carbohydrate export,2.9128062268281294,3.903522325776565,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,CO2,32.389517696952026,43.40597884153301,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Formate,0.1163263157894737,0.1558917193245683,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Betaxanthin,0.48708,0.6527477306685384,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + NH4Cl,FM01 + NH4Cl,export,Retained carbon,35.23401938686598,47.21796459946632,74.61994536559124,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,import,Glucose,24.564,96.12129273995222,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,import,Formamide,0.9912118576429912,3.8787072600477854,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,Other export,0.6784410985816005,2.6548052207937145,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,Acetate,6.9532,27.208539842022297,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,Organic acid/carbohydrate export,3.905461527019938,15.282446292269348,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,CO2,8.181950853070235,32.01676002002385,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,Betaxanthin,1.30716,5.115042705502196,25.55521185764299,exact fixed-growth feasible
+ME,FM01 + Formamide,FM01 + Formamide,export,Retained carbon,4.528998378971217,17.722405919388592,25.55521185764299,exact fixed-growth feasible
